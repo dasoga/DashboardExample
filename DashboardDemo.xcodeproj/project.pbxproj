@@ -16,6 +16,12 @@
 		2C7E191F1D0B40BE00638CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E191D1D0B40BE00638CE9 /* LaunchScreen.storyboard */; };
 		2C7E192A1D0B40BE00638CE9 /* DashboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E19291D0B40BE00638CE9 /* DashboardDemoTests.m */; };
 		2C7E19351D0B40BE00638CE9 /* DashboardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E19341D0B40BE00638CE9 /* DashboardDemoUITests.m */; };
+		2C7E19431D0B67C900638CE9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E19421D0B67C900638CE9 /* CFNetwork.framework */; };
+		2C7E19451D0B67D000638CE9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E19441D0B67D000638CE9 /* Security.framework */; };
+		2C7E19491D0B698F00638CE9 /* HostGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E19471D0B698F00638CE9 /* HostGameViewController.m */; };
+		2C7E194A1D0B698F00638CE9 /* HostGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E19481D0B698F00638CE9 /* HostGameViewController.xib */; };
+		2C7E19511D0BAA4000638CE9 /* FindHostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E19501D0BAA4000638CE9 /* FindHostTableViewController.m */; };
+		3655467E377EB14C0F5B38BF /* libPods-DashboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53531ECB4E31BB5F344ACF5B /* libPods-DashboardDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,17 @@
 		2C7E19301D0B40BE00638CE9 /* DashboardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashboardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7E19341D0B40BE00638CE9 /* DashboardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardDemoUITests.m; sourceTree = "<group>"; };
 		2C7E19361D0B40BE00638CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7E19421D0B67C900638CE9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2C7E19441D0B67D000638CE9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2C7E19461D0B698F00638CE9 /* HostGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostGameViewController.h; sourceTree = "<group>"; };
+		2C7E19471D0B698F00638CE9 /* HostGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostGameViewController.m; sourceTree = "<group>"; };
+		2C7E19481D0B698F00638CE9 /* HostGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HostGameViewController.xib; sourceTree = "<group>"; };
+		2C7E194E1D0BA6B300638CE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C7E194F1D0BAA4000638CE9 /* FindHostTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHostTableViewController.h; sourceTree = "<group>"; };
+		2C7E19501D0BAA4000638CE9 /* FindHostTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindHostTableViewController.m; sourceTree = "<group>"; };
+		53531ECB4E31BB5F344ACF5B /* libPods-DashboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DashboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23EC8D428FBE85027935E64 /* Pods-DashboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DashboardDemo/Pods-DashboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D82C44D968960F8E32C88C4F /* Pods-DashboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DashboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DashboardDemo/Pods-DashboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7E19451D0B67D000638CE9 /* Security.framework in Frameworks */,
+				2C7E19431D0B67C900638CE9 /* CFNetwork.framework in Frameworks */,
+				3655467E377EB14C0F5B38BF /* libPods-DashboardDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +107,8 @@
 				2C7E19281D0B40BE00638CE9 /* DashboardDemoTests */,
 				2C7E19331D0B40BE00638CE9 /* DashboardDemoUITests */,
 				2C7E190A1D0B40BE00638CE9 /* Products */,
+				CAF8A10F7DAD61BD2C042842 /* Pods */,
+				458E8E05E03A0341756C1B3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +135,11 @@
 				2C7E19201D0B40BE00638CE9 /* Info.plist */,
 				2C7E19181D0B40BE00638CE9 /* DashboardDemo.xcdatamodeld */,
 				2C7E190C1D0B40BE00638CE9 /* Supporting Files */,
+				2C7E19461D0B698F00638CE9 /* HostGameViewController.h */,
+				2C7E19471D0B698F00638CE9 /* HostGameViewController.m */,
+				2C7E19481D0B698F00638CE9 /* HostGameViewController.xib */,
+				2C7E194F1D0BAA4000638CE9 /* FindHostTableViewController.h */,
+				2C7E19501D0BAA4000638CE9 /* FindHostTableViewController.m */,
 			);
 			path = DashboardDemo;
 			sourceTree = "<group>";
@@ -121,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				2C7E190D1D0B40BE00638CE9 /* main.m */,
+				2C7E194E1D0BA6B300638CE9 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +171,25 @@
 			path = DashboardDemoUITests;
 			sourceTree = "<group>";
 		};
+		458E8E05E03A0341756C1B3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E19441D0B67D000638CE9 /* Security.framework */,
+				2C7E19421D0B67C900638CE9 /* CFNetwork.framework */,
+				53531ECB4E31BB5F344ACF5B /* libPods-DashboardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF8A10F7DAD61BD2C042842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D82C44D968960F8E32C88C4F /* Pods-DashboardDemo.debug.xcconfig */,
+				A23EC8D428FBE85027935E64 /* Pods-DashboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C7E19391D0B40BE00638CE9 /* Build configuration list for PBXNativeTarget "DashboardDemo" */;
 			buildPhases = (
+				4E3B0A7EEC0FC922FDB5A561 /* Check Pods Manifest.lock */,
 				2C7E19051D0B40BE00638CE9 /* Sources */,
 				2C7E19061D0B40BE00638CE9 /* Frameworks */,
 				2C7E19071D0B40BE00638CE9 /* Resources */,
+				AA2E5A00976ACE113F6B10C3 /* Embed Pods Frameworks */,
+				06C1AE041654AAD3460AD9DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +298,7 @@
 			files = (
 				2C7E191F1D0B40BE00638CE9 /* LaunchScreen.storyboard in Resources */,
 				2C7E191C1D0B40BE00638CE9 /* Assets.xcassets in Resources */,
+				2C7E194A1D0B698F00638CE9 /* HostGameViewController.xib in Resources */,
 				2C7E19171D0B40BE00638CE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,12 +319,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06C1AE041654AAD3460AD9DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DashboardDemo/Pods-DashboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E3B0A7EEC0FC922FDB5A561 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2E5A00976ACE113F6B10C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DashboardDemo/Pods-DashboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C7E19051D0B40BE00638CE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7E19491D0B698F00638CE9 /* HostGameViewController.m in Sources */,
 				2C7E19141D0B40BE00638CE9 /* ViewController.m in Sources */,
+				2C7E19511D0BAA4000638CE9 /* FindHostTableViewController.m in Sources */,
 				2C7E19111D0B40BE00638CE9 /* AppDelegate.m in Sources */,
 				2C7E190E1D0B40BE00638CE9 /* main.m in Sources */,
 				2C7E191A1D0B40BE00638CE9 /* DashboardDemo.xcdatamodeld in Sources */,
@@ -417,9 +518,13 @@
 		};
 		2C7E193A1D0B40BE00638CE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82C44D968960F8E32C88C4F /* Pods-DashboardDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DashboardDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = DashboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dasoga.DashboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +533,13 @@
 		};
 		2C7E193B1D0B40BE00638CE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23EC8D428FBE85027935E64 /* Pods-DashboardDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DashboardDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = DashboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dasoga.DashboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +611,7 @@
 				2C7E193B1D0B40BE00638CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C7E193C1D0B40BE00638CE9 /* Build configuration list for PBXNativeTarget "DashboardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +620,7 @@
 				2C7E193E1D0B40BE00638CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C7E193F1D0B40BE00638CE9 /* Build configuration list for PBXNativeTarget "DashboardDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +629,7 @@
 				2C7E19411D0B40BE00638CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

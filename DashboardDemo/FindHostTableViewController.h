@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FindHostTableViewController.h
 //  DashboardDemo
 //
 //  Created by Dante Solorio on 6/10/16.
@@ -7,13 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HostGameViewController.h"
-#import "FindHostTableViewController.h"
 
-@interface ViewController : UIViewController
-
-
-
+@interface FindHostTableViewController : UITableViewController
 
 @end
-
